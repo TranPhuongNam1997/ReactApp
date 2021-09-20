@@ -1,6 +1,8 @@
-var redux = require('redux')
+
 import nameReducer from './Reducer/ReducerName'  
 import StatusReducer from './Reducer/ReducerStatus'  
+
+var redux = require('redux')
 
 
 // let oldState = {
@@ -30,6 +32,7 @@ const allReducer = redux.combineReducers({
     name: nameReducer,
     BeginStatus: StatusReducer
 })
+
 
 // const all = redux.combineReducers({
   

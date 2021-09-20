@@ -7,4 +7,4 @@ const StatusReducer = (state = StatusInitialState, action) => {
             return state;
     }
 }
-export default StatusReducer
+export default StatusReducer;

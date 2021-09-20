@@ -1,4 +1,4 @@
-const nameInitialState = ['nam', 'chung', 'hieu'],
+const nameInitialState = ['nam', 'chung', 'hieu'];
 const nameReducer = (state = nameInitialState, action) => {
     switch (action.type) {
         case 'ADD_NEW':
@@ -11,4 +11,4 @@ const nameReducer = (state = nameInitialState, action) => {
             return state
     }
 }
-export default nameReducer
+export default nameReducer;
